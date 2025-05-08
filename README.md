@@ -5,11 +5,19 @@ The supported languages are now Python and fortran.  If you are a fortran user a
 
 Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of the visualization and multivariate analysis method.
 
+<img src="images_hex/rgb_hexagram_overview.png" alt="RGB hexagram k=2" width="800">
+
+**RGB hexagram a sample figure with a analysis grid version.**
+
+***
+
 ### Licence and agreement
 The source codes are distributed under the [MIT license](https://opensource.org/licenses/MIT).  
 You must cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) in an appropriate way when you present and/or publish scientific results and products using this visualization and multivariate analysis method.
 
 M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
+
+***
 
 ### Overview of this repository
 This repository provides a step-by-step tutorial for generating and visualizing the RGB Hexagram, a new visualization method for multivariate analysis. The RGB Hexagram maps three normalized variables to the Red, Green, and Blue (RGB) color channels on a structured hexagram grid, enabling intuitive interpretation of multivariate data distributions including atmospheric science applications such as cloud microphysical analysis. 
@@ -71,6 +79,11 @@ python
 
 In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the following visualizations are included:
 
+<img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram k=2" width="800">
+
+* RGB value distribution (r_hex, g_hex, b_hex)
+* Area index map (num_hex)
+* Composite RGB image based on the hexagram structure
 * RGB value distribution (r_hex, g_hex, b_hex)
 * Area index map (num_hex)
 * Composite RGB image based on the hexagram structure
