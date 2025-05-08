@@ -12,27 +12,24 @@ You must cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) in an approp
 M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
 
 ### Overview of this repository
-This repository provides a step-by-step tutorial for generating and visualizing the RGB Hexagram, a novel visualization method for multivariate analysis. The RGB Hexagram maps three normalized variables to the Red, Green, and Blue (RGB) color channels on a structured hexagonal grid, enabling intuitive interpretation of multivariate data distributions, especially in atmospheric science applications such as cloud microphysical analysis. 
+This repository provides a step-by-step tutorial for generating and visualizing the RGB Hexagram, a new visualization method for multivariate analysis. The RGB Hexagram maps three normalized variables to the Red, Green, and Blue (RGB) color channels on a structured hexagram grid, enabling intuitive interpretation of multivariate data distributions including atmospheric science applications such as cloud microphysical analysis. 
 
 #### Key Features
 
-* Hexagonal RGB Grid Generation: Fortran programs (col_hex.f90, etc.) generate structured hexagonal color maps based on cyclic RGB assignment rules.
+* RGB Hexagram Grid Generation: The Python program ( `generate_rgb_hex.py` ) generate structured hexagram color maps based on cyclic RGB assignment rules.
 * Multivariate Mapping: Users can assign their own normalized variables (e.g., liquid water content, ice water content, vertical velocity) to RGB channels for visual analysis.
-* Python Visualization: Python scripts read the Fortran output and generate color-mapped images with consistent x–y orientation and grid labeling.
+* Python Visualization: Python scripts read the any output and generate color-mapped images with consistent x–y orientation and grid labeling.
 
 
 # RGB Hexagram Tutorial
 ## What is this tutorial?
 
-This tutorial demonstrates how to generate, visualize, and apply the **RGB Hexagram**—a novel colormap and multivariate analysis tool developed by Makoto Kondo (2025). The RGB Hexagram method maps **three variables** onto the Red, Green, and Blue color channels and arranges them in a **structured hexagonal grid**, allowing intuitive visualization of mixtures (1-, 2-, and 3-component combinations).
+This tutorial demonstrates how to generate, visualize, and apply the **RGB Hexagram**—a new visialization and multivariate analysis method developed by Makoto Kondo (2025). The RGB Hexagram method maps **three variables** onto the Red, Green, and Blue color channels and arranges them in a **structured hexagonal grid**, allowing intuitive visualization and analysis of mixtures (1-, 2-, and 3-components combinations).
 
 This tutorial is designed for:
-
 - Researchers analyzing multivariate scientific data
-- Visualization of cloud microphysics (e.g., liquid water, graupel, snow)
-- Education in multivariate analysis techniques using Python and Fortran
 
-This tutorial uses both **Fortran (for hexagram generation)** and **Python (for visualization and application with example data)**.
+This tutorial uses **Python (for visualization and application with sample data)**.
 
 
 ## File Structure
@@ -51,9 +48,6 @@ RGB_Hexagram_Tutorial/
 ---
 
 # Tutorial Workflow
-
-
- 
 
 
 ### Step 1: Generate RGB Hexagram Arrays
@@ -112,7 +106,9 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 ***
 
 ## Reference
-**Kondo, M. (2025): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
+**[Kondo, M. (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
+
+***
 
 #### Contact
 If you have any questions, please contact me via the email address in [ORCID](https://orcid.org/0000-0003-4434-7877).
