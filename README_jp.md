@@ -116,7 +116,7 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 ***
 
 ## 参考文献
-**[Kondo, M. (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
+**[M. Kondo, (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
 
 ***
 
