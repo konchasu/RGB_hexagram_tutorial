@@ -1,68 +1,67 @@
-# RGB Hexagram (Kondo 2025)
-## Introduction
-This software provides sample source code as a tutorial for applying the RGB (Red, Green, and Blue) hexagram, a visualization and multivariate analysis method, to 3D and higher-dimensional data.
-The supported languages are now Python and fortran.  If you are a fortran user and you want to use fortran codes, please contact me with the e-mail address in [ORCID](https://orcid.org/0000-0003-4434-7877).
+# RGBヘキサグラム (Kondo 2025)
+## はじめに
+このソフトウェアは、Kondo (2025)で開発されたRGB(Red, Green, Blue)ヘキサグラムという可視化・多変量解析手法を、3次元データや高次元データに適用するためのチュートリアルとして、サンプルソースコードを提供しています。
+対応言語はPythonとfortranです。 fortranをお使いの方で、fortranのコードを使いたい方は、[ORCID](https://orcid.org/0000-0003-4434-7877)のメールアドレスまでご連絡ください。
 
-Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of the visualization and multivariate analysis method.
+RGBヘキサグラムの可視化と多変量解析の方法の詳細は[Kondo (2025)](https://doi.org/10.2151/sola.2025-028)を参照してください。
 
 <img src="images_hex/rgb_hexagram_overview.png" alt="RGB hexagram k=2" width="800">
 
-**RGB hexagram a sample figure with a analysis grid version.**
+**RGBヘキサグラムのサンプル図と解析格子で描画されたRGBヘキサグラム**
 
 ***
 
-### Licence and agreement
-The source codes are distributed under the [MIT license](https://opensource.org/licenses/MIT).  
+### ライセンス
+このソースコードは[MITライセンス](https://opensource.org/licenses/MIT)の下で配布されています。
 You must cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) in an appropriate way when you present and/or publish scientific results and products using this visualization and multivariate analysis method.
+このRGBヘキサグラムでの可視化・多変量解析手法を用いた科学的な成果物を発表・公表する際には、適切な方法で[Kondo (2025)](https://doi.org/10.2151/sola.2025-028)を引用する必要があります。
 
 M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
 
 ***
 
-### Overview of this repository
-This repository provides a step-by-step tutorial for generating and visualizing the RGB Hexagram, a new visualization method for multivariate analysis. The RGB Hexagram maps three normalized variables to the Red, Green, and Blue (RGB) color channels on a structured hexagram grid, enabling intuitive interpretation of multivariate data distributions including atmospheric science applications such as cloud microphysical analysis. 
+### このリポジトリの概要
+このリポジトリでは、多変量解析のための新しい可視化手法であるRGBヘキサグラムの生成と可視化のための段階的なチュートリアルを提供します。RGB ヘキサグラムは、構造化されたヘキサグラムグリッド上の赤、緑、青（RGB）カラーチャンネルに3つの正規化された変数を対応付け、任意の多変量データ(e.g., 雲微物理量やレーダーパラメータなど)の構造の直感的な解釈を可能にします。
 
-#### Key Features
+#### 主な機能
 
-* RGB Hexagram Grid Generation: The Python program ( `generate_rgb_hex.py` ) generate structured hexagram color maps based on cyclic RGB assignment rules.
-* Multivariate Mapping: Users can assign their own normalized variables (e.g., liquid water content, ice water content, vertical velocity) to RGB channels for visual analysis.
-* Python Visualization: Python scripts read the any output and generate color-mapped images with consistent x–y orientation and grid labeling.
+* RGBヘキサグラムグリッド生成： Pythonプログラム( `generate_rgb_hex.py` )は、周期的なRGB割り当て規則に基づいて、構造化されたヘキサグラムカラーマップを生成します。
+* 多変量マッピング：ユーザは、独自の正規化された変数（例えば、液体含水率、氷水含水率、垂直速度）を視覚的分析のためにRGB値それぞれに割り当てることができます。
+* Pythonによる視覚化： Pythonスクリプトは、任意の出力を読み取り、一貫したx-y方向とグリッドラベリングで可視化された画像を生成します。
 
+# RGBヘキサグラムのチュートリアル
+## このチュートリアルで行うこと
 
-# RGB Hexagram Tutorial
-## What is this tutorial?
+このチュートリアルでは、Kondo (2025)によって開発された新しい可視化と多変量解析手法である**RGBヘキサグラム**の生成、可視化、適用方法を示します。RGBヘキサグラムでは、**3つの任意の変数** をRed、Green、BlueのRGB値にマッピングし、それらを**構造化されたヘキサグラム上** に配置することで、混合（1成分、2成分、3成分の組み合わせ）の直感的な可視化と分析を可能にします。
 
-This tutorial demonstrates how to generate, visualize, and apply the **RGB Hexagram**—a new visialization and multivariate analysis method developed by Makoto Kondo (2025). The RGB Hexagram method maps **three variables** onto the Red, Green, and Blue color channels and arranges them in a **structured hexagonal grid**, allowing intuitive visualization and analysis of mixtures (1-, 2-, and 3-components combinations).
+このチュートリアルは次のような方々を対象としています
+- 多変量科学データを分析する研究者
 
-This tutorial is designed for:
-- Researchers analyzing multivariate scientific data
+このチュートリアルでは、**Python（サンプルデータによる可視化と多変量解析）** を使用します。
 
-This tutorial uses **Python (for visualization and application with sample data)**.
-
-
-## File Structure
+## ファイル構造
 ```
 RGB_Hexagram_Tutorial/
 ├── LICENSE
 ├── README.md
 └── for_python
-    ├── generate_rgb_hex.py                        # Generate RGB values for R, G, and B components of RGB hexagram and each Area number of RGB hexagram. generate_rgb_hex.py is used as import generate_rgb_hex.py
-    ├── RGB_hexagram_tutorial_for_generation.ipynb # Tutorial for applying RGB hexagrams to 3D data (3 components of RGB)
-    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # Tutorial applying RGB hexagrams to 4D data (3 RGB components + vertical axis)
-    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # Tutorial applying RGB hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
+    ├── generate_rgb_hex.py                        # RGBヘキサグラムのR,G,B成分およびRGBヘキサグラムの各AreaのRGB値を生成する。generate_rgb_hex.pyはimport generate_rgb_hex.pyとして使用する。
+    ├── RGB_hexagram_tutorial_for_generation.ipynb # RGBヘキサグラムを3次元データに適用するためのチュートリアル（RGBの3成分）
+    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
+    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
 ```
     
 
 ---
 
-# Tutorial Workflow
+# チュートリアルの流れ
 
 
-### Step 1: Generate RGB Hexagram Arrays
+### Step 1: RGBヘキサグラム配列の生成
 
-You can use the **Python module** to generate the RGB hexagram arrays in this tutorial. If you are a fortran user and you want to use fortran codes, please contact me with the e-mail address in [ORCID](https://orcid.org/0000-0003-4434-7877).
+このチュートリアルのRGBヘキサグラム配列を生成するには、**Python**を使用することができます。もしあなたがfortranユーザーで、fortranコードを使いたい場合は、[ORCID](https://orcid.org/0000-0003-4434-7877)にあるメールアドレスまでご連絡ください。
 
-#### For python users
+#### Pythonユーザー
 ```
 cd for_python
 python
@@ -70,58 +69,56 @@ python
 >>> r_hex, g_hex, b_hex, num_hex = generate_rgb_hex(k=11)
 ```
 
-* The coefficient *k* here defines the size of the RGB hexagram. A coefficient *k* value of 11 or less is recommended.
-* r_hex, g_hex, b_hex, and num_hex are numpy arrays of RGB values for R, G, and B components of RGB hexagram and each Area number of RGB hexagram
+* ここで係数*k*はRGB六芒星の大きさを定義します。係数 *k* の値は11以下を推奨します。
+* r_hex、g_hex、b_hex、num_hexは、RGBヘキサグラムのR、G、B成分、およびRGBヘキサグラムの各 Area番号のRGB値のnumpy配列です。
+
 
 ***
 
-### Step 2: Visualize RGB Hexagram Structure
+### Step 2: RGBヘキサグラムの描画
 
-In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the following visualizations are included:
+Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、以下の可視化・解析が含まれています：
 
 <img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram k=2" width="800">
 
-* RGB value distribution (r_hex, g_hex, b_hex)
-* Area index map (num_hex)
-* Composite RGB image based on the hexagram structure
-* RGB value distribution (r_hex, g_hex, b_hex)
-* Area index map (num_hex)
-* Composite RGB image based on the hexagram structure
+* RGB 値分布 (r_hex, g_hex, b_hex)
+* Area Index マップ (num_hex)
+* 六芒星構造に基づくRGB合成画像
 
+さらに以下の内容の可視化もできます：
 
-You can visualize:
-
-* Red/Green/Blue channel data separately
-* Combined RGB colormap image
-* Area indices for analysis
+* 赤/緑/青の各チャンネルデータ
+* 結合されたRGBカラーマップ画像
+* 分析用エリアデータ
 
 ***
 
-### Step 3: Apply RGB Hexagram to 3D Data
+### Step 3: RGBヘキサグラムの3次元データへの適用
 
-The notebook also includes a section where random sample data (e.g., 3 subject scores) is:
+このJupyter Notebookには、ランダムサンプル3次元データ（チュートリアルでは3教科の得点）を解析するセクションもある。
 
-1. Normalized
-2. Mapped to RGB channels
-3. Positioned on the hexagram
-4. Visualized as frequency distributions
-5. Percentage calculations for each Area
-
+手順：
+1. データの正規化
+2. RGB値に変換
+3. RGBヘキサグラムに配置
+4. 度数分布として可視化
+5. 各Areaのパーセンテージを計算
 
 * In `RGB_hexagram_tutorial_for_4dim_data.ipynb` , you can plot a histogram with a vertical axis for each Area.
 * In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
-  
+* `RGB_hexagram_tutorial_for_4dim_data.ipynb` では、4次元目の縦軸を用いた各Areaのヒストグラムをプロットすることができます。
+* `RGB_hexagram_tutorial_for_5dim_data.ipynb` では、5次元目に時間軸を追加することで各Areaの縦軸×時間のグラフを描画することができます。
 
-#### Example use cases:
-* Mapping scientific variables to visualize dominant mixing states
-* Tracking temporal evolution using additional vertical or time dimensions
+#### 使用例
+* 任意の3変数のマッピングによる支配的な混合状態の視覚化
+* 追加の鉛直軸と時間軸を使用した混合の時間的進化の追跡
 
 ***
 
-## Reference
+## 参考文献
 **[Kondo, M. (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
 
 ***
 
-#### Contact
-If you have any questions, please contact me via the email address in [ORCID](https://orcid.org/0000-0003-4434-7877).
+#### 連絡先
+ご質問等がありましたら、[ORCID](https://orcid.org/0000-0003-4434-7877)のメールアドレスまでご連絡ください。
