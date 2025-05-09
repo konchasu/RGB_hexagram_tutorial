@@ -5,9 +5,9 @@ The supported languages are now Python and fortran.  If you are a fortran user a
 
 Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of the visualization and multivariate analysis method.
 
-<img src="images_hex/rgb_hexagram_overview.png" alt="RGB hexagram k=2" width="800">
+<img src="images_hex/rgb_hexagram_overview.png" alt="RGB Hexagram with k=2" width="800">
 
-**RGB hexagram a sample figure with a analysis grid version.**
+**RGB Hexagram a sample figure with a analysis grid version.**
 
 ***
 
@@ -46,10 +46,10 @@ RGB_Hexagram_Tutorial/
 ├── LICENSE
 ├── README.md
 └── for_python
-    ├── generate_rgb_hex.py                        # Generate RGB values for R, G, and B components of RGB hexagram and each Area number of RGB hexagram. generate_rgb_hex.py is used as import generate_rgb_hex.py
-    ├── RGB_hexagram_tutorial_for_generation.ipynb # Tutorial for applying RGB hexagrams to 3D data (3 components of RGB)
-    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # Tutorial applying RGB hexagrams to 4D data (3 RGB components + vertical axis)
-    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # Tutorial applying RGB hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
+    ├── generate_rgb_hex.py                        # Generate RGB values for R, G, and B components of RGB Hexagram and each Area number of RGB Hexagram. generate_rgb_hex.py is used as import generate_rgb_hex.py
+    ├── RGB_hexagram_tutorial_for_generation.ipynb # Tutorial for applying RGB Hexagrams to 3D data (3 components of RGB)
+    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # Tutorial applying RGB Hexagrams to 4D data (3 RGB components + vertical axis)
+    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # Tutorial applying RGB Hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
 ```
     
 
@@ -60,7 +60,7 @@ RGB_Hexagram_Tutorial/
 
 ### Step 1: Generate RGB Hexagram Arrays
 
-You can use the **Python module** to generate the RGB hexagram arrays in this tutorial. If you are a fortran user and you want to use fortran codes, please contact me with the e-mail address in [ORCID](https://orcid.org/0000-0003-4434-7877).
+You can use the **Python module** to generate the RGB Hexagram arrays in this tutorial. If you are a fortran user and you want to use fortran codes, please contact me with the e-mail address in [ORCID](https://orcid.org/0000-0003-4434-7877).
 
 #### For python users
 ```
@@ -83,10 +83,7 @@ In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the follo
 
 * RGB value distribution (r_hex, g_hex, b_hex)
 * Area index map (num_hex)
-* Composite RGB image based on the hexagram structure
-* RGB value distribution (r_hex, g_hex, b_hex)
-* Area index map (num_hex)
-* Composite RGB image based on the hexagram structure
+* Composite RGB image based on the RGB Hexagram structure
 
 
 You can visualize:
@@ -103,7 +100,7 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 
 1. Normalized
 2. Mapped to RGB channels
-3. Positioned on the hexagram
+3. Positioned on the RGB Hexagram
 4. Visualized as frequency distributions
 5. Percentage calculations for each Area
 
