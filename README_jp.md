@@ -84,7 +84,7 @@ R, G, B, Areaの2次元配列は `r_file: rw_hex_test_d.csv , g_file: gw_hex_tes
 
 Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、以下の可視化・解析が含まれています：
 
-<img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram Area k=2" width="800">
+<img src="images_hex/rgb_hex_n_hex_overview.png" alt="RGB hexagram Area k=2" width="800">
 
 **RGB 値分布 (r_hex, g_hex, b_hex), ヘキサグラム構造に基づくRGB合成画像, Area Index マップ (num_hex)**
 
