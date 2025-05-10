@@ -23,11 +23,14 @@ M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysi
 ### このリポジトリの概要
 このリポジトリでは、多変量解析のための新しい可視化手法であるRGBヘキサグラムの生成と可視化のための段階的なチュートリアルを提供します。RGB ヘキサグラムは、構造化されたヘキサグラムグリッド上の赤、緑、青（RGB）カラーチャンネルに3つの正規化された変数を対応付け、任意の多変量データ(e.g., 雲微物理量やレーダーパラメータなど)の構造の直感的な解釈を可能にします。
 
+
 #### 主な機能
 
 * RGBヘキサグラムグリッド生成： Pythonプログラム( `generate_rgb_hex.py` )は、周期的なRGB割り当て規則に基づいて、構造化されたヘキサグラムカラーマップを生成します。
 * 多変量マッピング：ユーザは、独自の正規化された変数（例えば、液体含水率、氷水含水率、垂直速度）を視覚的分析のためにRGB値それぞれに割り当てることができます。
 * Pythonによる視覚化： Pythonスクリプトは、任意の出力を読み取り、一貫したx-y方向とグリッドラベリングで可視化された画像を生成します。
+
+<br>
 
 # RGBヘキサグラムのチュートリアル
 ## このチュートリアルで行うこと
@@ -37,7 +40,7 @@ M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysi
 このチュートリアルは次のような方々を対象としています
 - 多変量科学データを分析する研究者
 
-このチュートリアルでは、**Python（サンプルデータによる可視化と多変量解析）** を使用します。
+このチュートリアルでは、**Python** を使用します(サンプルデータによる可視化と多変量解析のため)。
 
 ## ファイル構造
 ```
@@ -50,7 +53,6 @@ RGB_Hexagram_Tutorial/
     ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
     └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
 ```
-    
 
 ---
 
@@ -69,9 +71,10 @@ python
 >>> r_hex, g_hex, b_hex, num_hex = generate_rgb_hex(k=11)
 ```
 
-* ここで係数*k*はRGB六芒星の大きさを定義します。係数 *k* の値は11以下を推奨します。
+* ここで係数*k*はRGBヘキサグラムの大きさを定義します。係数 *k* の値は11以下を推奨します。
 * r_hex、g_hex、b_hex、num_hexは、RGBヘキサグラムのR、G、B成分、およびRGBヘキサグラムの各 Area番号のRGB値のnumpy配列です。
 
+<br>
 
 ***
 
@@ -79,17 +82,18 @@ python
 
 Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、以下の可視化・解析が含まれています：
 
-<img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram k=2" width="800">
+<img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram Area k=2" width="800">
 
-* RGB 値分布 (r_hex, g_hex, b_hex)
-* Area Index マップ (num_hex)
-* 六芒星構造に基づくRGB合成画像
+**RGB 値分布 (r_hex, g_hex, b_hex), 六芒星構造に基づくRGB合成画像, Area Index マップ (num_hex)**
 
+<br>
 さらに以下の内容の可視化もできます：
 
 * 赤/緑/青の各チャンネルデータ
 * 結合されたRGBカラーマップ画像
 * 分析用エリアデータ
+
+<br>
 
 ***
 
@@ -104,10 +108,15 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 4. 度数分布として可視化
 5. 各Areaのパーセンテージを計算
 
-* In `RGB_hexagram_tutorial_for_4dim_data.ipynb` , you can plot a histogram with a vertical axis for each Area.
-* In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
+
 * `RGB_hexagram_tutorial_for_4dim_data.ipynb` では、4次元目の縦軸を用いた各Areaのヒストグラムをプロットすることができます。
 * `RGB_hexagram_tutorial_for_5dim_data.ipynb` では、5次元目に時間軸を追加することで各Areaの縦軸×時間のグラフを描画することができます。
+
+<img src="images_hex/3d_4d_5d_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
+
+**3次元/4次元/5次元データを用いた解析例**
+
+<br>
 
 #### 使用例
 * 任意の3変数のマッピングによる支配的な混合状態の視覚化
