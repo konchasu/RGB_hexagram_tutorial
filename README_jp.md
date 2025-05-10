@@ -84,7 +84,7 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 <img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram Area k=2" width="800">
 
-**RGB 値分布 (r_hex, g_hex, b_hex), 六芒星構造に基づくRGB合成画像, Area Index マップ (num_hex)**
+**RGB 値分布 (r_hex, g_hex, b_hex), ヘキサグラム構造に基づくRGB合成画像, Area Index マップ (num_hex)**
 
 <br>
 さらに以下の内容の可視化もできます：
