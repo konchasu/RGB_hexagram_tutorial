@@ -113,6 +113,11 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 * In `RGB_hexagram_tutorial_for_4dim_data.ipynb` , you can plot a histogram with a vertical axis for each Area.
 * In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
   
+<img src="images_hex/3d_4d_5d_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
+
+**Sample analyses using 3D, 4D, and 5D data**
+
+<br>
 
 #### Example use cases:
 * Mapping scientific variables to visualize dominant mixing states
