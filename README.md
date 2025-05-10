@@ -88,6 +88,7 @@ In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the follo
 
 **RGB value distribution (r_hex, g_hex, b_hex), Composite RGB image based on the RGB Hexagram structure, Area index map (num_hex)**
 
+###### In the RGB hexagram, Areas ①–⑥ represent the mixing of three components. For example, in Area ① of this three components area, the R-value component is dominant, with the G-value component present as a secondary factor, while the B-value component is minor. Areas ⑦–⑫ represent the mixing of two components. For instance, Area ⑦ has R- and G-values that are linearly symmetric to those of Area ① but does not contain a B value. Similar corresponding relationships are observed in other areas as well. Areas ⑬–⑮ represent the mixing of one component. 
 
 You can visualize:
 
