@@ -13,7 +13,6 @@ RGBヘキサグラムの可視化と多変量解析の方法の詳細は[Kondo (
 
 ### ライセンス
 このソースコードは[MITライセンス](https://opensource.org/licenses/MIT)の下で配布されています。
-You must cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) in an appropriate way when you present and/or publish scientific results and products using this visualization and multivariate analysis method.
 このRGBヘキサグラムでの可視化・多変量解析手法を用いた科学的な成果物を発表・公表する際には、適切な方法で[Kondo (2025)](https://doi.org/10.2151/sola.2025-028)を引用する必要があります。
 
 M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
@@ -48,7 +47,7 @@ RGB_Hexagram_Tutorial/
 ├── LICENSE
 ├── README.md
 └── for_python
-    ├── generate_rgb_hex.py                        # RGBヘキサグラムのR,G,B成分およびRGBヘキサグラムの各AreaのRGB値を生成する。generate_rgb_hex.pyはimport generate_rgb_hex.pyとして使用する。
+    ├── generate_rgb_hex.py                        # RGBヘキサグラムのR,G,B成分およびRGBヘキサグラムの各AreaのRGB値を生成する。generate_rgb_hex.pyはimport generate_rgb_hex.pyとして使用します。
     ├── RGB_hexagram_tutorial_for_generation.ipynb # RGBヘキサグラムを3次元データに適用するためのチュートリアル（RGBの3成分）
     ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
     └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
@@ -88,6 +87,9 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 **RGB 値分布 (r_hex, g_hex, b_hex), ヘキサグラム構造に基づくRGB合成画像, Area Index マップ (num_hex)**
 
+##### RGBヘキサグラムでは、Area①～⑥が3成分の混合を表しています。 例えば、この3成分のArea①では、R成分が支配的で、G成分は副次的に存在し、B成分はマイナーです。Area⑦-⑫は、2つの成分が混合しています。 例えば、エリア⑦はエリア①と線対称のR値とG値を持つが、B値を含みません。 他のエリアでも同様の対応関係が見られる。 Area⑬-⑮は1成分を表します。
+
+
 <br>
 さらに以下の内容の可視化もできます：
 
@@ -101,7 +103,7 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 ### Step 3: RGBヘキサグラムの3次元データへの適用
 
-このJupyter Notebookには、ランダムサンプル3次元データ（チュートリアルでは3教科の得点）を解析するセクションもある。
+このJupyter Notebookには、ランダムサンプル3次元データ（チュートリアルでは3教科の得点）を解析するセクションもあります。
 
 手順：
 1. データの正規化
