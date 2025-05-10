@@ -28,6 +28,7 @@ This repository provides a step-by-step tutorial for generating and visualizing 
 * Multivariate Mapping: Users can assign their own normalized variables (e.g., liquid water content, ice water content, vertical velocity) to RGB channels for visual analysis.
 * Python Visualization: Python scripts read the any output and generate color-mapped images with consistent x–y orientation and grid labeling.
 
+<br>
 
 # RGB Hexagram Tutorial
 ## What is this tutorial?
@@ -73,6 +74,10 @@ python
 * The coefficient *k* here defines the size of the RGB hexagram. A coefficient *k* value of 11 or less is recommended.
 * r_hex, g_hex, b_hex, and num_hex are numpy arrays of RGB values for R, G, and B components of RGB hexagram and each Area number of RGB hexagram
 
+The 2D arrays: R, G, B, and Area index are saved as `r_file: rw_hex_test_d.csv , g_file: gw_hex_test_d.csv , b_file: bw_hex_test_d.csv n_file nw_hex_test_d.csv` .
+
+<br>
+
 ***
 
 ### Step 2: Visualize RGB Hexagram Structure
@@ -81,9 +86,7 @@ In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the follo
 
 <img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram k=2" width="800">
 
-* RGB value distribution (r_hex, g_hex, b_hex)
-* Area index map (num_hex)
-* Composite RGB image based on the RGB Hexagram structure
+**RGB value distribution (r_hex, g_hex, b_hex), Composite RGB image based on the RGB Hexagram structure, Area index map (num_hex)**
 
 
 You can visualize:
@@ -91,6 +94,8 @@ You can visualize:
 * Red/Green/Blue channel data separately
 * Combined RGB colormap image
 * Area indices for analysis
+
+<br>
 
 ***
 
