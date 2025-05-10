@@ -84,7 +84,7 @@ The 2D arrays: R, G, B, and Area index are saved as `r_file: rw_hex_test_d.csv ,
 
 In the Jupyter Notebook `RGB_hexagram_tutorial_for_generation.ipynb` , the following visualizations are included:
 
-<img src="images_hex/rgb_hexagram_each_hex.png" alt="RGB hexagram k=2" width="800">
+<img src="images_hex/rgb_hex_n_hex_overview.png" alt="RGB hexagram k=2" width="800">
 
 **RGB value distribution (r_hex, g_hex, b_hex), Composite RGB image based on the RGB Hexagram structure, Area index map (num_hex)**
 
