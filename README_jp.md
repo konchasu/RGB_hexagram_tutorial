@@ -73,6 +73,8 @@ python
 * ここで係数*k*はRGBヘキサグラムの大きさを定義します。係数 *k* の値は11以下を推奨します。
 * r_hex、g_hex、b_hex、num_hexは、RGBヘキサグラムのR、G、B成分、およびRGBヘキサグラムの各 Area番号のRGB値のnumpy配列です。
 
+###### 係数*k*とRGBヘキサグラム平面のサイズ*N*×*N*は*N*=8*k*+7という関係があります。各配列は扱いやすさのため(*N*+1)×(*N*+1)のshapeとなっています。
+
 R, G, B, Areaの2次元配列は `r_file: rw_hex_test_d.csv , g_file: gw_hex_test_d.csv , b_file: bw_hex_test_d.csv n_file nw_hex_test_d.csv` のファイルに保存されます。
 
 <br>
