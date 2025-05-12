@@ -73,6 +73,7 @@ python
 
 * The coefficient *k* here defines the size of the RGB hexagram. A coefficient *k* value of 11 or less is recommended.
 * r_hex, g_hex, b_hex, and num_hex are numpy arrays of RGB values for R, G, and B components of RGB hexagram and each Area number of RGB hexagram
+###### The coefficient *k* and the size *N* × *N* of the RGB hexagram are related by the equation *N* = 8*k* + 7. For ease of handling, each array is defined with a shape of (*N* + 1) × (*N* + 1).
 
 The 2D arrays: R, G, B, and Area index are saved as `r_file: rw_hex_test_d.csv , g_file: gw_hex_test_d.csv , b_file: bw_hex_test_d.csv n_file nw_hex_test_d.csv` .
 
