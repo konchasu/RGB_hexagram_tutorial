@@ -1,0 +1,3 @@
+[submodule "RGB_hexagram_CRM"]
+	path = RGB_hexagram_CRM
+	url = git@github.com:konchasu/RGB_hexagram_CRM.git
