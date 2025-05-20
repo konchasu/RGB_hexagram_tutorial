@@ -47,10 +47,15 @@ RGB_Hexagram_Tutorial/
 ├── LICENSE
 ├── README.md
 └── for_python
-    ├── generate_rgb_hex.py                        # RGBヘキサグラムのR,G,B成分およびRGBヘキサグラムの各AreaのRGB値を生成する。generate_rgb_hex.pyはimport generate_rgb_hex.pyとして使用します。
-    ├── RGB_hexagram_tutorial_for_generation.ipynb # RGBヘキサグラムを3次元データに適用するためのチュートリアル（RGBの3成分）
-    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
-    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
+│   ├── generate_rgb_hex.py                        # RGBヘキサグラムのR,G,B成分およびRGBヘキサグラムの各AreaのRGB値を生成する。generate_rgb_hex.pyはimport generate_rgb_hex.pyとして使用します。
+│   ├── RGB_hexagram_tutorial_for_generation.ipynb # RGBヘキサグラムを3次元データに適用するためのチュートリアル（RGBの3成分）
+│   ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
+│   └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
+└── RGB_hexagram_CRM (private repository)
+    ├── LICENSE
+    ├── README.md
+    └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # RGBヘキサグラムを気象モデル結果に適用するためのチュートリアル (RGBの3成分+鉛直軸+時間軸)
+
 ```
 
 ---
@@ -117,10 +122,13 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 * `RGB_hexagram_tutorial_for_4dim_data.ipynb` では、4次元目の縦軸を用いた各Areaのヒストグラムをプロットすることができます。
 * `RGB_hexagram_tutorial_for_5dim_data.ipynb` では、5次元目に時間軸を追加することで各Areaの縦軸×時間のグラフを描画することができます。
+* `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (プライベートリポジトリ)では、気象モデルの結果に対してRGBヘキサグラムで解析するチュートリアルができます。(このリポジトリを使いたい場合は[ORCID](https://orcid.org/0000-0003-4434-7877)内にあるメールアドレスまでご連絡ください)
 
-<img src="images_hex/3d_4d_5d_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
+<img src="images_hex/3d_4d_5d_CRM_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
 
-**3次元/4次元/5次元データを用いた解析例**
+**3次元/4次元/5次元データと気象モデル結果を用いた解析例**
+
+###### モデル結果は、気象モデル[SCALE](https://scale.riken.jp/ja/) (Scalable Computing for Advanced Library and Environment, Nisizawa et al. 2015; Sato et al. 2015)の[チュートリアル資料](https://scale.riken.jp/archives/scale_users_guide.v5.5.4.pdf)の 「3.2 現実大気実験」のものである。
 
 <br>
 
