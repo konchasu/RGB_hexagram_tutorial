@@ -33,7 +33,7 @@ This repository provides a step-by-step tutorial for generating and visualizing 
 # RGB Hexagram Tutorial
 ## What is this tutorial?
 
-This tutorial demonstrates how to generate, visualize, and apply the **RGB Hexagram**—a new visialization and multivariate analysis method developed by Makoto Kondo (2025). The RGB Hexagram method maps **three variables** onto the Red, Green, and Blue color channels and arranges them in a **structured hexagonal grid**, allowing intuitive visualization and analysis of mixtures (1-, 2-, and 3-components combinations).
+This tutorial demonstrates how to generate, visualize, and apply the **RGB Hexagram**—a new visialization and multivariate analysis method developed by Kondo (2025). The RGB Hexagram method maps **three variables** onto the Red, Green, and Blue color channels and arranges them in a **structured hexagonal grid**, allowing intuitive visualization and analysis of mixtures (1-, 2-, and 3-components combinations).
 
 This tutorial is designed for:
 - Researchers analyzing multivariate scientific data
@@ -47,10 +47,15 @@ RGB_Hexagram_Tutorial/
 ├── LICENSE
 ├── README.md
 └── for_python
-    ├── generate_rgb_hex.py                        # Generate RGB values for R, G, and B components of RGB Hexagram and each Area number of RGB Hexagram. generate_rgb_hex.py is used as import generate_rgb_hex.py
-    ├── RGB_hexagram_tutorial_for_generation.ipynb # Tutorial for applying RGB Hexagrams to 3D data (3 components of RGB)
-    ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # Tutorial applying RGB Hexagrams to 4D data (3 RGB components + vertical axis)
-    └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # Tutorial applying RGB Hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
+│   ├── generate_rgb_hex.py                         # Generate RGB values for R, G, and B components of RGB Hexagram and each Area number of RGB Hexagram. generate_rgb_hex.py is used as import generate_rgb_hex.py
+│   ├── RGB_hexagram_tutorial_for_generation.ipynb  # Tutorial for applying RGB Hexagrams to 3D data (3 components of RGB)
+│   ├── RGB_hexagram_tutorial_for_4dim_data.ipynb   # Tutorial for applying RGB Hexagrams to 4D data (3 RGB components + vertical axis)
+│   └── RGB_hexagram_tutorial_for_5dim_data.ipynb   # Tutorial for applying RGB Hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
+└── RGB_hexagram_CRM
+    ├── LICENSE
+    ├── README.md
+    └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # Tutorial for applying RGB Hexagrams to cloud-resolving model simulation results (3 RGB components + vertical axis + time axis)
+
 ```
     
 
@@ -114,10 +119,11 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 
 * In `RGB_hexagram_tutorial_for_4dim_data.ipynb` , you can plot a histogram with a vertical axis for each Area.
 * In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
+* In `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (private repository), you can analyze cloud resolving model simulation results. (If you want to use the repository, please contact via [ORCID](https://orcid.org/0000-0003-4434-7877))
   
 <img src="images_hex/3d_4d_5d_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
 
-**Sample analyses using 3D, 4D, and 5D data**
+**Sample analyses using 3D, 4D, 5D data, and Cloud resolving Model results**
 
 <br>
 
