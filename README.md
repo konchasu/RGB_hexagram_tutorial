@@ -121,9 +121,11 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 * In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
 * In `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (private repository), you can analyze cloud resolving model simulation results. (If you want to use the repository, please contact via [ORCID](https://orcid.org/0000-0003-4434-7877))
   
-<img src="images_hex/3d_4d_5d_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
+<img src="images_hex/3d_4d_5d_CRM_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
 
 **Sample analyses using 3D, 4D, 5D data, and Cloud resolving Model results**
+
+###### The model results are for the “Chapter 3.2 Real atmosphere experiment” in [the tutorial document](https://scale.riken.jp/archives/scale_users_guide_En.v5.5.4.pdf) for the meteorological model [SCALE](https://scale.riken.jp/) (Nishizawa et al. 2015; Sato et al. 2015).
 
 <br>
 
