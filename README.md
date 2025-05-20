@@ -51,7 +51,7 @@ RGB_Hexagram_Tutorial/
 │   ├── RGB_hexagram_tutorial_for_generation.ipynb  # Tutorial for applying RGB Hexagrams to 3D data (3 components of RGB)
 │   ├── RGB_hexagram_tutorial_for_4dim_data.ipynb   # Tutorial for applying RGB Hexagrams to 4D data (3 RGB components + vertical axis)
 │   └── RGB_hexagram_tutorial_for_5dim_data.ipynb   # Tutorial for applying RGB Hexagrams to 5-dimensional data (3 RGB components + vertical axis + time axis)
-└── RGB_hexagram_CRM
+└── RGB_hexagram_CRM (private repository)
     ├── LICENSE
     ├── README.md
     └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # Tutorial for applying RGB Hexagrams to cloud-resolving model simulation results (3 RGB components + vertical axis + time axis)
@@ -125,7 +125,7 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 
 **Sample analyses using 3D, 4D, 5D data, and Cloud resolving Model results**
 
-###### The model results are for the “Chapter 3.2 Real atmosphere experiment” in [the tutorial document](https://scale.riken.jp/archives/scale_users_guide_En.v5.5.4.pdf) for the meteorological model [SCALE](https://scale.riken.jp/) (Nishizawa et al. 2015; Sato et al. 2015).
+###### The model results are for the “Chapter 3.2 Real atmosphere experiment” in [the tutorial document](https://scale.riken.jp/archives/scale_users_guide_En.v5.5.4.pdf) for the meteorological model [SCALE](https://scale.riken.jp/) (Scalable Computing for Advanced Library and Environment, Nishizawa et al. 2015; Sato et al. 2015).
 
 <br>
 
