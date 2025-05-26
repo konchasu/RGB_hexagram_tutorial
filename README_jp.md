@@ -54,6 +54,7 @@ RGB_Hexagram_Tutorial/
 └── RGB_hexagram_CRM (private repository)
     ├── LICENSE
     ├── README.md
+    ├── README_jp.md
     └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # RGBヘキサグラムを気象モデル結果に適用するためのチュートリアル (RGBの3成分+鉛直軸+時間軸)
 
 ```
@@ -122,7 +123,7 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 * `RGB_hexagram_tutorial_for_4dim_data.ipynb` では、4次元目の縦軸を用いた各Areaのヒストグラムをプロットすることができます。
 * `RGB_hexagram_tutorial_for_5dim_data.ipynb` では、5次元目に時間軸を追加することで各Areaの縦軸×時間のグラフを描画することができます。
-* `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (プライベートリポジトリ)では、気象モデルの結果に対してRGBヘキサグラムで解析するチュートリアルができます。
+* `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` では、気象モデルの結果に対してRGBヘキサグラムで解析するチュートリアルができます。
 
 <img src="images_hex/3d_4d_5d_CRM_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
 
