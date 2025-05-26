@@ -54,6 +54,7 @@ RGB_Hexagram_Tutorial/
 └── RGB_hexagram_CRM (private repository)
     ├── LICENSE
     ├── README.md
+    ├── README_jp.md
     └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # Tutorial for applying RGB Hexagrams to cloud-resolving model simulation results (3 RGB components + vertical axis + time axis)
 
 ```
@@ -119,7 +120,7 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 
 * In `RGB_hexagram_tutorial_for_4dim_data.ipynb` , you can plot a histogram with a vertical axis for each Area.
 * In `RGB_hexagram_tutorial_for_5dim_data.ipynb` , you can plot a vertical-time figures for each Area.
-* In `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (private repository), you can analyze cloud resolving model simulation results. (If you want to use the repository, please contact via [ORCID](https://orcid.org/0000-0003-4434-7877))
+* In `RGB_hexagram_CRM/RGB_hexagram_tutorial_for_SCALE_comparison.ipynb` (private repository), you can analyze cloud resolving model simulation results.
   
 <img src="images_hex/3d_4d_5d_CRM_analysis_sample.png" alt="RGB hexagram analysis k=2" width="800">
 
