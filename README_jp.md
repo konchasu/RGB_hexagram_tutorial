@@ -51,11 +51,17 @@ RGB_Hexagram_Tutorial/
 │   ├── RGB_hexagram_tutorial_for_generation.ipynb # RGBヘキサグラムを3次元データに適用するためのチュートリアル（RGBの3成分）
 │   ├── RGB_hexagram_tutorial_for_4dim_data.ipynb  # RGBヘキサグラムを4次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸）
 │   └── RGB_hexagram_tutorial_for_5dim_data.ipynb  # RGBヘキサグラムを5次元データに適用するためのチュートリアル（RGBの3成分+鉛直軸+時間軸）
-└── RGB_hexagram_CRM (private repository)
+└── RGB_hexagram_CRM (another repository)
     ├── LICENSE
     ├── README.md
     ├── README_jp.md
-    └── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb  # RGBヘキサグラムを気象モデル結果に適用するためのチュートリアル (RGBの3成分+鉛直軸+時間軸)
+    ├── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb # RGBヘキサグラムを気象モデル結果に適用するためのチュートリアル (RGBの3成分+鉛直軸+時間軸)
+    ├── images_crm
+    │   └── RGB_hexagram_Area_analysis_CRM.png
+    └── sample_simulation_data
+        ├── merged-z_history_d01_t08.pe000000.nc
+        └── merged-z_history_d01_sn14.pe000000.nc
+
 
 ```
 
