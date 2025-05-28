@@ -1,4 +1,5 @@
 # RGB Hexagram (Kondo 2025)
+###### The Japanese version of the README is available in README_jp.md. 日本語版のREADMEはREADME_jp.mdをご覧下さい。
 ## Introduction
 This software provides sample source code as a tutorial for applying the RGB (Red, Green, and Blue) hexagram, a visualization and multivariate analysis method, to 3D and higher-dimensional data.
 The supported languages are now Python and fortran.  If you are a fortran user and you want to use fortran codes, please contact me with the e-mail address in [ORCID](https://orcid.org/0000-0003-4434-7877).
