@@ -16,7 +16,7 @@ Please see [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) for details of 
 The source codes are distributed under the [MIT license](https://opensource.org/licenses/MIT).  
 You must cite [Kondo (2025)](https://doi.org/10.2151/sola.2025-028) in an appropriate way when you present and/or publish scientific results and products using this visualization and multivariate analysis method.
 
-M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
+M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, doi:10.2151/sola.2025-028.
 
 ***
 
@@ -56,7 +56,7 @@ RGB_Hexagram_Tutorial/
     ├── LICENSE
     ├── README.md
     ├── README_jp.md
-    ├── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb # # Tutorial for applying RGB Hexagrams to cloud-resolving model simulation results (3 RGB components + vertical axis + time axis)
+    ├── RGB_hexagram_tutorial_for_SCALE_comparison.ipynb # Tutorial for applying RGB Hexagrams to cloud-resolving model simulation results (3 RGB components + vertical axis + time axis)
     ├── images_crm
     │   └── RGB_hexagram_Area_analysis_CRM.png
     └── sample_simulation_data
@@ -143,7 +143,7 @@ The notebook also includes a section where random sample data (e.g., 3 subject s
 ***
 
 ## Reference
-**[M. Kondo, (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
+**[M. Kondo, (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, doi:10.2151/sola.2025-028.**
 
 ***
 
