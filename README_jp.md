@@ -15,7 +15,7 @@ RGBヘキサグラムの可視化と多変量解析の方法の詳細は[Kondo (
 このソースコードは[MITライセンス](https://opensource.org/licenses/MIT)の下で配布されています。
 このRGBヘキサグラムでの可視化・多変量解析手法を用いた科学的な成果物を発表・公表する際には、適切な方法で[Kondo (2025)](https://doi.org/10.2151/sola.2025-028)を引用する必要があります。
 
-M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, doi:10.2151/sola.2025-028.
+M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028.
 
 ***
 
@@ -37,7 +37,7 @@ M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysi
 このチュートリアルでは、Kondo (2025)によって開発された新しい可視化と多変量解析手法である**RGBヘキサグラム**の生成、可視化、適用方法を示します。RGBヘキサグラムでは、**3つの任意の変数** をRed、Green、BlueのRGB値にマッピングし、それらを**構造化されたヘキサグラム上** に配置することで、混合（1成分、2成分、3成分の組み合わせ）の直感的な可視化と分析を可能にします。
 
 このチュートリアルは次のような方々を対象としています
-- 多変量科学データを分析する研究者
+- 多変量科学データを分析する研究者など
 
 このチュートリアルでは、**Python** を使用します(サンプルデータによる可視化と多変量解析のため)。
 
@@ -109,7 +109,9 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 * 赤/緑/青の各チャンネルデータ
 * 結合されたRGBカラーマップ画像
-* 分析用エリアデータ
+* 分析用エリアデータ </br>
+
+など
 
 <br>
 
@@ -135,13 +137,15 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 
 **3次元/4次元/5次元データと気象モデル結果を用いた解析例**
 
-###### モデル結果は、気象モデル[SCALE](https://scale.riken.jp/ja/) (Scalable Computing for Advanced Library and Environment, Nisizawa et al. 2015; Sato et al. 2015)の[チュートリアル資料](https://scale.riken.jp/archives/scale_users_guide.v5.5.4.pdf)の 「3.2 現実大気実験」のものである。
+###### モデル結果は、気象モデル[SCALE](https://scale.riken.jp/ja/) (Scalable Computing for Advanced Library and Environment, Nisizawa et al. 2015; Sato et al. 2015)の[チュートリアル資料](https://scale.riken.jp/archives/scale_users_guide.v5.5.4.pdf)の 「3.2 現実大気実験」のものです。
 
 <br>
 
 #### 使用例
 * 任意の3変数のマッピングによる支配的な混合状態の視覚化
-* 追加の鉛直軸と時間軸を使用した混合の時間的進化の追跡
+* 追加の鉛直軸と時間軸を使用した混合の時間的進化の追跡 </br>
+
+など
 
 ***
 
