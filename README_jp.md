@@ -15,7 +15,7 @@ RGBヘキサグラムの可視化と多変量解析の方法の詳細は[Kondo (
 このソースコードは[MITライセンス](https://opensource.org/licenses/MIT)の下で配布されています。
 このRGBヘキサグラムでの可視化・多変量解析手法を用いた科学的な成果物を発表・公表する際には、適切な方法で[Kondo (2025)](https://doi.org/10.2151/sola.2025-028)を引用する必要があります。
 
-M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, accepted.
+M. Kondo, 2025: RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds, Scientific Online Letters on the Atmosphere, doi:10.2151/sola.2025-028, doi:10.2151/sola.2025-028.
 
 ***
 
@@ -146,7 +146,7 @@ Jupyterノートブック`RGB_hexagram_tutorial_for_generation.ipynb`には、�
 ***
 
 ## 参考文献
-**[M. Kondo, (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, accepted.**
+**[M. Kondo, (2025)](https://doi.org/10.2151/sola.2025-028): RGB Hexagram Approach for Visualization and Multivariate Analysis with Application to Mixed-Phase Clouds. *Scientific Online Letters on the Atmosphere (SOLA)*, doi:10.2151/sola.2025-028.**
 
 ***
 
