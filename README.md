@@ -91,7 +91,7 @@ The 2D arrays: R, G, B, and Area index are saved as `r_file: rw_hex_test_d.csv ,
 
 ![RGB Hexagram Making Process](images_hex/RGB_hexagram_making_process.gif)
 
-###### Hexagram generation process in the hexagram grid (left) and the analysis grid (right): for the *t*-th ring from the center, values are generated at intervals of *j* (where *j* = *t*) within each Area.
+###### Hexagram generation process in the hexagram grid (left) and the analysis grid (right) (*k* = 2): for the *t*-th ring from the center, values are generated at intervals of *j* (where *j* = *t*) within each Area.
 
 <br>
 
