@@ -91,7 +91,7 @@ R, G, B, Areaの2次元配列は `r_file: rw_hex_test_d.csv , g_file: gw_hex_tes
 
 ![RGB Hexagram Making Process](images_hex/RGB_hexagram_making_process.gif)
 
-###### ヘキサグラム格子(左図)と解析格子(右図)におけるヘキサグラムの生成プロセス：中心から *t* 離れた周回ではArea毎に *j (j=t)* ずつ値が生成されます。
+###### ヘキサグラム格子(左図)と解析格子(右図)におけるヘキサグラムの生成プロセス(*k* = 2)：中心から *t* 離れた周回ではArea毎に *j (j=t)* ずつ値が生成されます。
 
 <br>
 
